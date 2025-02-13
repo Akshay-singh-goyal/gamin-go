@@ -33,7 +33,7 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path='/privacypolicy' element={<PrivacyPolicy/>}/>
-	  <Route path='/dashboard' element={<Dashboard/>}/>
+	  <Route path="/wallet" element={<Dashboard/>}/>
 
 
       {/* Catch-all Route: Redirect to login if user is not authenticated */}
